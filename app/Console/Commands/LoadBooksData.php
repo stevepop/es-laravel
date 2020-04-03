@@ -39,6 +39,7 @@ class LoadBooksData extends Command
      */
     public function handle()
     {
+        $booksArray = [];
         $json = json_decode(Storage::get('data/books.json'), true);
 
          $this->info('Loading books from json. This might take a while...');
@@ -56,14 +57,14 @@ class LoadBooksData extends Command
                 'authors' => $item['authors'],
                 'categories' => $item['categories'],
             ];
+            Book::create( $bookData);
 
-            Book::create($bookData);
+           // Book::create($bookData);
 
              // PHPUnit-style feedback
             $this->output->write('.');
         }
 
-
-         $this->info("\n Loading Complete!");
+        $this->info("\n Loading Complete!");
     }
 }
