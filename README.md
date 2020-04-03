@@ -86,3 +86,8 @@ valet link
 ```
 
 Go the the browser and load the page. Try searching for a book. You can switch between searching with Elasticsearch and searching with SQL by changing the value of ELASTICSEARCH_ENABLED
+
+Acknowledgments
+Inspiration for creating this codebase was obtained from various sources including;
+
+-   https://madewithlove.com/how-to-integrate-elasticsearch-in-your-laravel-app-2019-edition/
