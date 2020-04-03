@@ -62,11 +62,13 @@ docker-composer up
 ```
 
 Load Books from Books.json. This also indexes the records in Elasticsearch.
-If you encouter 'too many files open error' temporary increase your ulimit `ulimit -n 1000`
 
 ```sh
 php artisan books:load
 ```
+
+If you encouter 'too many files open error', temporarily increase your ulimit.
+`ulimit -n 1000`
 
 Start your dev server
 
