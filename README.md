@@ -1,6 +1,7 @@
 ## Using Elasticsearch in a Laravel Application
 
 A demo to illustrate how to use Elasticsearch within a Laravel application.
+
 ![](https://raw.githubusercontent.com/stevepop/es-laravel/master/public/images/books.png)
 
 ## Installation
