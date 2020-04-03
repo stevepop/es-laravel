@@ -89,5 +89,7 @@ Go the the browser and load the page. Try searching for a book. You can switch b
 
 ## Acknowledgments
 Referenced links;
+
 https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html 
+
 https://madewithlove.com/how-to-integrate-elasticsearch-in-your-laravel-app-2019-edition/
